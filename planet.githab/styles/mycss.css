@@ -1,0 +1,86 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, #00051c 0%, #dbdbf0 99%);
+}
+
+
+
+.nav-link {
+    color: rgb(51, 73, 158);
+}
+
+.navbar-nav .nav-link.active {
+
+    color: rgb(201, 185, 185);
+}
+
+.navbar-brand img {
+
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(201, 185, 185);
+}
+
+.siddebar_1 {
+    color: hsla(234, 100%, 8%, 0.942);
+    background: linear-gradient(270deg, #3d319e 0%, #A7A8BE 99%);
+
+}
+
+.card {
+    background: linear-gradient(60deg, #00051c 0%, #A7A8BE 99%);
+    color: aliceblue;
+
+}
+
+.card a {
+    text-decoration: none;
+}
+
+
+.slide-css{
+    color: #1087c7;
+    margin: auto auto;
+}
+
+.footer_text{
+    color: #1087c7;
+}
+
+footer{
+    background: linear-gradient(180deg, #00051c 0%, #A7A8BE 99%);
+}
+
+.src_link{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.question_anim_1{
+    animation: question_anim_1 4s ease 0s 1 normal forwards;
+}
+@keyframes question_anim_1 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.btn_call_1{
+    background: linear-gradient(10deg, #3d319e 0%, #565991 99%);
+}
+
+.question_anim_1{
+
+    margin-bottom: 2rem;
+   
+}
